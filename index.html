@@ -2,20 +2,24 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <!-- css -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- Título -->
+    <!-- Título da página(Aparece na aba) -->
     <div>
+        <!-- Cabeçalho Título e subtítulo -->
         <h1 id="título">Cadastro</h1>
     </div>
     
     <form>
         <fieldset>
+            <!-- Nome e Sobrenome -->
             <div>
                 <label>
                     <strong>Nome</strong>
@@ -30,6 +34,7 @@
             </div>
         </fieldset>
         <fieldset>
+            <!-- Email e Senha-->
             <div>
                 <label>
                     <strong>Email</strong>
@@ -43,7 +48,7 @@
                 <input type="Password" name="senha" id="senha">
             </div>
         </fieldset>
-
+            <!-- Data de Nascimento -->
         <div>
             <div>
                 <label>
@@ -52,6 +57,7 @@
                 <input type="date" name="nasc" id="nasc">
             </div>
         </div>
+        <!-- Escolha do curso -->
         <label>
             <strong>Curso</strong>
         </label>
@@ -67,6 +73,7 @@
         <div>
 
             <div>
+                <!-- Turno -->
                 <label>
                     <strong>Turno</strong>
                 </label>
@@ -77,6 +84,7 @@
                     <option>Noite</option>
                 </select>
             </div>
+            <!-- Botão de cadastro -->
         </div>
         <button type="submit">Cadastro </button>
     </form>
